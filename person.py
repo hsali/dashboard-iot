@@ -9,7 +9,7 @@ class user:
         self.db = db('aman', '127.0.0.1', 'hacker123', 'ARMS')
         self.username = username 
         self.secret = password
-        self.authenticated = False
+        self.authenticated = True
         self.auth()
         self.get_details()
         self.get_devices()
